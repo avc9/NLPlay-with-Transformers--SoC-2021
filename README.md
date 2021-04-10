@@ -1,6 +1,8 @@
 # NLPlay-with-Transformers--SoC-2021
 
-<h2> Week 2 Task:-</h2>
+<h2> By- Akash Chodankar</h2> 
+
+<h3> Week 2 Task:-</h3>
 
 <p> This week's task was <i>Sentiment Analysis</i> based on an IMDB review dataset which consisted of 50,000 samples equally distibuted amongst positive and negative sentiment.</p>
 
