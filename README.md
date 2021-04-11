@@ -15,6 +15,6 @@
 
 <li><h4>Tf-Idf implementation</h4></li>
 
-<p>The preprocessing was done with nltk. Considering Zipf's law, I kept on decreasing the number of features and evaluated the corresponding logistic regression error. A significant observation which was made was that the accuraccy didn't decrease much when the number of features were decreased from 70,000+ to 10,000. This helped in reducing the dimensions of training data before feeding it to the neural network, which contributed to a significant decrease in the training time. The sigmoid fucntion was used along with BCEloss and SGD. A batch size of 512 was used for traning the neural network with 2 hidden layers of 500 neurons each.<p>
+<p>The preprocessing was done with nltk. Considering Zipf's law, I kept on decreasing the number of features and evaluated the corresponding logistic regression error. A significant observation which was made was that the accuraccy didn't decrease much when the number of features were decreased from 70,000+ to 10,000. This helped in reducing the dimensions of training data before feeding it to the neural network, which contributed to a significant decrease in the training time. The sigmoid fucntion was used along with BCEloss and SGD. A batch size of 512 was used for traning the neural network with 2 hidden layers of 500 neurons each. Similar accuracy of 0.88 was achieve here with a much lesser training time<p>
   
 </ol>
