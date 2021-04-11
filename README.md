@@ -4,8 +4,17 @@
 
 <h3> Week 2 Task:-</h3>
 
+
+
 <p> This week's task was <i>Sentiment Analysis</i> based on an IMDB review dataset which consisted of 50,000 samples equally distibuted amongst positive and negative sentiment.</p>
 
-<p> The major proportion of preprocessing was done with the popular NLP library; <b>nltk</b> with some assistant of functions from other libraries. For predictions, a Feedforward Neural Network was implemented using <b>pytorch</b>. The Neural Network consisted of 2 hidden layers each of which was made up of 200 neurons. Activation functions like ReLU and Sigmoid were used. The loss was evaluated using Binary Cross Entropy function and the algorithm was optimized using Stochastic Gradient Descent. The training was conducted for 26 iterations on a batch size of 1.</p>
+<ol type="1">
+<li><h4>BOW implementation</h4></li>
 
-<p> The test set accuracy turned out to be <b>0.88</b> . </p>
+<p> The major proportion of preprocessing was done with the popular NLP library; <b>nltk</b> with some assistant of functions from other libraries. For predictions, a Feedforward Neural Network was implemented using <b>pytorch</b>. The Neural Network consisted of 2 hidden layers each of which was made up of 200 neurons. Activation functions like ReLU and Softmax were used. The loss was evaluated using Cross Entropy function and the algorithm was optimized using Stochastic Gradient Descent. The training was conducted for 26 iterations on a batch size of 1.The test set accuracy turned out to be <b>0.88</b>.</p>
+
+<li><h4>Tf-Idf implementation</h4></li>
+
+<p>The preprocessing was done with nltk. Considering Zipf's law, I kept on decreasing the number of features and evaluated the corresponding logistic regression error. A significant observation which was made was that the accuraccy didn't decrease much when the number of features were decreased from 70,000+ to 10,000. This helped in reducing the dimensions of training data before feeding it to the neural network, which contributed to a significant decrease in the training time. The sigmoid fucntion was used along with BCEloss and SGD. A batch size of 512 was used for traning the neural network with 2 hidden layers of 500 neurons each.<p>
+  
+</ol>
