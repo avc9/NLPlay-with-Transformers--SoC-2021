@@ -22,4 +22,4 @@
 <h3> Week 3 Task:-</h3>
 
 
-<p> In this week I implemented neural network architectures like RNN,GRU and LSTM. The results were very good in case of LSTM with an accuracy of above 85% on the test data. In case of RNN and GRU the network took a slightly longer time to train. An accuracy of 75%+ was achieved.</p>
+<p> In this week I implemented neural network architectures like RNN,GRU and LSTM. The results were very good in case of LSTM with an accuracy of above 85% on the test data. In case of RNN and GRU the network took a slightly longer time to train. An accuracy of 70%+ was achieved.</p>
