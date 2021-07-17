@@ -19,3 +19,4 @@
 ## Week 7-8:
 
 1. GPT2_and_T5
+2. The articles folder has all the generated articles.
