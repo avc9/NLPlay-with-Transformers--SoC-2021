@@ -1,4 +1,4 @@
-#Please use this file while maneuvering through this repo.
+# Please use this file while maneuvering through this repo.
 
 ## Week 2:
 
