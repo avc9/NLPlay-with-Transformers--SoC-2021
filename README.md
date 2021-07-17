@@ -34,6 +34,6 @@
 <p> This week's focus was to improve the scores on the testset using state-of-the-art transformers models. I implemented Bert and Distilbert model using the Huggingface library. The results achieved had accuracies above 85% in case of bert and around 60% in case of Distilbert</p>
 
 <h3> Week 7-8 Tasks:-</h3>
-<h5> Files: WEEK3_RNN_implementation, WEEK3_LSTM</h5>
+<h5> Files: GPT2_and_T5 </h5>
 
 <p> Created a 3 custom datasets using wikipedia library to scrape text data from the articles in the domain of science, finance and entertainment. Used GPT-2 and T5 transformer models to generate articles corresponding to the input. Evauated the performance using bleu score matrix.
