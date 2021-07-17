@@ -22,11 +22,15 @@
 <h3> Week 3 Task:-</h3>
 
 
-<p> In this week I implemented neural network architectures like RNN,GRU and LSTM. The results were very good in case of LSTM with an accuracy of above 85% on the test data. In case of RNN and GRU the network took a slightly longer time to train. An accuracy of 70%+ was achieved.</p>
+<p> In this week I implemented neural network architectures like RNN,GRU and LSTM. The results were very good in case of LSTM with an accuracy of above 80% on the test data. In case of RNN and GRU the network took a slightly longer time to train. An accuracy of 70%+ was achieved.</p>
 
 
 
 <h3> Week 4-6 Tasks:-</h3>
 
 
-<p> BertModel </p>
+<p> This week's focus was to improve the scores on the testset using state-of-the-art transformers models. I implemented Bert and Distilbert model using the Huggingface library. The results achieved had accuracies above 85% in case of bert and around 60% in case of Distilbert</p>
+
+<h3> Week 7-8 Tasks:-</h3>
+
+<p> Created a 3 custom datasets using wikipedia library to scrape text data from the articles in the domain of science, finance and entertainment. Used GPT-2 and T5 transformer models to generate articles corresponding to the input. Evauated the performance using bleu score matrix.
